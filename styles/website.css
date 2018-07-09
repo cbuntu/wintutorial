@@ -1,0 +1,98 @@
+.markdown-section figure figcaption {
+	font-style: normal;
+	font-size: 12px;
+	color: #000;
+}
+
+.markdown-section img {
+	display: block;
+	margin: auto;
+	width: 90%;
+
+	height: auto;
+	opacity: 1;
+	border-radius: 4px;
+	padding: 5px;
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.markdown-section hr {
+	height: 1px;
+	background-color: #ccc;
+}
+
+.markdown-section h1 {
+	border-bottom: 1px solid #ccc;
+}
+
+.markdown-section blockquote {
+	background-color: #f8f8f8;
+	color: green;
+	border-radius: 4px;
+}
+
+.markdown-section table {
+	font-size: 11px;
+}
+
+.markdown-section table td {
+	padding: 4px;
+}
+
+.markdown-section blockquote[id^="fn_"] {
+	width: 85%;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: transparent;
+}
+
+.markdown-section blockquote[id="fn_1"] {
+	margin-top: 40px;
+}
+
+.gbcg .gbcg-selector {
+	margin-left: 0px;
+	min-width: 70px;
+}
+
+.gbcg .gbcg-selector:hover {
+	background-color: white;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .gbcg a.gbcg-selector.gbcg-active {
+	color: white;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .gbcg .gbcg-selector:hover {
+	color: #d8d8d8;
+}
+
+.gbcg .gbcg-selector.gbcg-active {
+	position: relative;
+	top: 1px;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background-color: #000;
+	box-shadow: 2px 2px 6px #333;
+}
+
+#gbcg-tab-container pre {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	color: white;
+	background-color: #000;
+	box-shadow: 2px 2px 6px #333;
+}
+
+pre.terminal {
+	border-radius: 4px;
+	box-shadow: 2px 2px 6px #333;
+}

@@ -1,0 +1,76 @@
+{
+	"title":		"Windows应用指南",
+	"author":		"Cbuntu",
+	"description":	"记录Windows操作系统的安装使用",
+	"language":		"zh-hans",
+	"gitbook": 		"3.2.3",
+
+	"links": {
+		"sidebar": {
+			"Home": "https://cbuntu.github.io",
+			"LinuxTutorial": "https://cbuntu.gitbooks.io/linuxtutorial"
+		}
+	},
+
+	"styles": {
+		"website": "styles/website.css"
+	},
+
+	"plugins": [
+
+		"tbfed-pagefooter@^0.0.1",
+		"splitter@^0.0.8",
+		"anchors@^0.7.1",
+		"anchor-navigation-ex-toc@^0.0.11",
+		"image-captions@^3.1.0",
+		"toggle-chapters@^0.0.3",
+		"terminal@^0.3.2",
+		"-codegroup@^2.3.3",
+		"-api@^1.1.0"
+
+	],
+
+	"pluginsConfig": {
+
+		"theme-default": {
+			"showLevel": true
+		},
+
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy cbuntu.github.io 2018",
+			"modify_label": "该文件修改时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+
+		"image-captions": {
+			"caption": "_CAPTION_"
+		},
+
+		"fontsettings": {
+			"theme": "white",
+			"size": 1
+		},
+
+		"anchor-navigation-ex-toc": {
+			"showLevel": true,
+			"associatedWithSummary": false
+		},
+
+		"terminal": {
+			"copyButtons": false,
+			"fade": false,
+			"style": "ubuntu"
+		},
+
+		"code": {
+			"copyButtons": false
+		},
+
+		"codegroup": {
+			"defaultTabName": "Code",
+			"tabNameSeperator": "::",
+			"rememberTabs": true
+		}
+
+	}
+}
