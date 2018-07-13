@@ -12,8 +12,8 @@
 	height: auto;
 	opacity: 1;
 	border-radius: 4px;
-	padding: 5px;
-	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	padding: 0px;
+	box-shadow: 2px 2px 6px #333;
 }
 
 .markdown-section hr {
