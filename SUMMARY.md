@@ -1,6 +1,6 @@
 # Summary
 
-* [指南说明](README.md)
+* [Windows应用指南说明](README.md)
 * [Windows简介](intro/intro.md)
     * [Ms-Dos简介](intro/msdos.md)
     * [Windows 1.0简介](intro/windows1.0.md)

@@ -7,8 +7,7 @@
 
 	"links": {
 		"sidebar": {
-			"Home": "https://cbuntu.github.io",
-			"LinuxTutorial": "https://cbuntu.gitbooks.io/linuxtutorial"
+			"Home": "https://cbuntu.github.io"
 		}
 	},
 
